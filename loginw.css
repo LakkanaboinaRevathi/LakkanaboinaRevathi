@@ -1,0 +1,27 @@
+/*
+#9c27B0,#673AB7
+*/
+@import url('https://fonts.gogle.com/css2?family=poppins&display=swap');
+body{
+    font-family: 'poppins',sans-serif;
+    background-image:radial-gradient(80.75% 10.88% at 0.39% 99.26%, rgba(170, 170, 184, 0.4) 1.42%, rgba(60, 60, 69, 0.51) 53.8%, rgba(206, 206, 218, 0) 100%), linear-gradient(8.24deg, #272023 14.75%, rgba(149, 157, 175, 0.48)),url(https://images.pexels.com/photos/812958/pexels-photo-812958.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+}
+.content{
+    height: 100vh;
+}
+.form-check-input:checked{
+    background: #673AB7;
+    border-color: #673AB7;
+}
+.btn-dark{
+    background: #673AB7 !important;
+}
+.fa{
+    padding: 11px;
+    width: 38px;
+    text-align: center;
+    text-decoration: none;
+    margin: 1px 3px;
+    border-radius: 50%;
+}
